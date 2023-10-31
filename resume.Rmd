@@ -4,22 +4,128 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# Introduction
+### Education
 
-Hi! I’m Peng Su, first year Master students in Biostatistics, and majored in Bioinformatics as an undergraduate. I’m really interested in using high-throughput and multi-omics data to investigate biological functions especially tumor immune related pathways and discover novel therapeutic loci and signatures.
+***Columbia University Mailman School of Public Health***
 
-I have four years of experience using R and master basic python and JAVA technology. Additionally, I have also participated in researches that use genomic data to build cancer immune prognostic model, as well as summarize immune-related signatures using big data and existing databases. 
+*M.S Biostatistics, Theory and Methods track* 
 
-# More infromation
-For more detail information please refer 
+*New York, Aug.2023 – now*
 
-* [my resume]
+* **Related Courses:** Probability, Biostatistical methods I, Principles of Epidemiology I, Data Science
 
-* [Github]
+<br>
 
-Wish you have a great day!
+***Xi’an Jiaotong-Liverpool University (XJTLU)***
 
-![](image/sunset.jpg)
+*B.Sc. Bioinformatics* 
+
+*Suzhou, China, Sept.2019 – Jul.2023*
+
+* **GPA:** Year 1: 69%; Year 2: 62%; Year 3: 77%; Year 4: 75%
+
+* **Related Courses:** Bioinformatics, Advanced Genetics, Artificial Intelligence, Database Development and Design, Linear Algebra, Multivariable Calculus and Statistics
+
+### Research Projects
+
+***Tumor Immune Microenvironment and Clinical Prognostic Analysis of Glycolysis-Related Pathways in Hepatocellular Carcinoma***
+
+*Final year project author, Supervisor: Professor: Xin Liu* 
+
+*Sept.2022 – Jun.2023*
+
+* Collected glycolysis-related genes from Molecular Signatures Database (MSigDB) and identified two glycolysis clusters in Hepatocellular carcinoma patients by unsupervised clustering.
+
+* Illustrated distinct differences between the two subtypes in immune microenvironment and survival prognosis.
+
+* Constructed a glycolysis-related risk score (GRRS) based on the Cancer Genome Atlas (TCGA) cohort for assessing survival and immune response prognosis.
+
+<br>
+
+***Investigation of Immuno-Oncology Signatures for Clinical Applications***
+
+*Research Group Member, Advisor: Dr. Linlin Yan* 
+
+*Jul.2022 – Aug.2022*
+
+* Integrated databases about existing immuno-oncology signatures, including MSigDB, TCIA, and TIRSF.
+
+* Summarized papers on tumor immune signatures and different tumor immune-related computing tools
+
+* Studied articles about the application of T-cell receptor in early screening of cancer prognosis
+
+* Outlined screening methods of CDR3, collected and screened T cell receptor specific DNA fragment (CDR3) data of lung cancer
+
+<br>
+
+***Recurrence of Article for “A Systematic Approach to Orient the Human Protein-Protein Interaction Network”***
+
+*Research Assistant* 
+
+*Mar.2022 – Apr.2022*
+
+* Conducted research on the diffusion-based method which was indicated in the article.
+
+* Reproduced Python code, constructed oriented human protein-protein interaction (PPI) network with Liver
+Hepatocellular Carcinoma (LIHC) mRNA count data from The Cancer Genome Atlas (TCGA) using Jupyter
+Notebook.
+
+### Professional Experiences
+
+***Journal of Inner Mongolia University (Natural Sciences)***
+
+*Intern Reviewer, Editorial Department* 
+
+*Hohhot, China, Oct.2021 – Dec.2021*
+
+* Prepared, translated, and edited the English contents, proofread of the Chinese and English abstracts.
+
+* Paraphrased biology-related English abstracts on topics such as study on the activity of plant extracts.
+
+* Performed in-depth study on writing Chinese and English academic papers, requirements on abstracts of scientific journals like Nature and Science, as well as methods for reviewing and proofreading papers.
+
+<br>
+
+***Nanjing Hongtu Artificial Intelligence Technology Research Institute***
+
+*Intern* 
+
+*Nanjing, China, Jul.2021 – Sept.2021*
+
+* Labeled key points of facial features, performed machine learning to train facial recognition.
+
+* Learned detection methods for features such as acne, and age spots to improve accuracy of supervised learning algorithm.
+
+<br>
+
+***QiLu Pharmaceutical Factory***
+
+*Intern, Multiple Departments* 
+
+*Jinan, China, May.2021 – Jul.2021*
+
+* Quality Control Department: 
+  
+  * Measured and recorded the pigment content of the capsule shell, performed the auxiliary work of tablet disintegration and gastric simulated.
+  
+  * Supported analysis of main components and impurities of anti-cancer drugs by gas and liquid chromatography.
+
+* Microbiology Testing Department: 
+
+  * Tested aseptic environment by microorganism cultivation, inspected the presence of microorganisms, configuration culture medium, and assisted in aseptic storage of experimental instruments.
+
+* Production Workshop of Biological Anticancer Drugs:
+
+  * Studied the cultivation and production of microbial and protein products.
+  
+  * Participated in the aseptic preparation of microbial initial culture medium and gel filtration chromatography of microbial protein products.
+  
+### Others
+
+* **Languages:** Fluent in English, Native in Chinese
+
+* **Computer Skills:** Proficient in R, JAVA, MySQL; Intermediate in Python
+
+* **Training Experience:** 56 hours of Big Data & Bioinformatics Training on R Programming, Statistical Analysis, Data Visualization and Survival Analysis (held by Inner Mongolia Medical University and Inner Mongolia Agricultural University, July 2021)

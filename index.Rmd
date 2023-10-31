@@ -4,7 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 # Introduction
@@ -16,10 +15,12 @@ I have four years of experience using R and master basic python and JAVA technol
 # More infromation
 For more detail information please refer 
 
-* [my resume]
+* [my resume](resume.html)
 
-* [Github]
+* [Github](http://github.com/PengSu19/)
+
+And this is my [email](mailto:<ps3395@cumc.columbia.edu>)
 
 Wish you have a great day!
 
-![](image/sunset.jpg)
+<img src="image/sunset.jpg" style="width:70%">
