@@ -1,0 +1,25 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Introduction
+
+Hi! I’m Peng Su, first year Master students in Biostatistics, and majored in Bioinformatics as an undergraduate. I’m really interested in using high-throughput and multi-omics data to investigate biological functions especially tumor immune related pathways and discover novel therapeutic loci and signatures.
+
+I have four years of experience using R and master basic python and JAVA technology. Additionally, I have also participated in researches that use genomic data to build cancer immune prognostic model, as well as summarize immune-related signatures using big data and existing databases. 
+
+# More infromation
+For more detail information please refer 
+
+* [my resume]
+
+* [Github]
+
+Wish you have a great day!
+
+![](image/sunset.jpg)
