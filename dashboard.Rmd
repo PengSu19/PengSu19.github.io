@@ -1,0 +1,85 @@
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+library(p8105.datasets)
+library(tidyverse)
+library(plotly)
+```
+
+```{r}
+data("instacart")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+instacart |> 
+  filter(reordered == 1, order_number >= 20) |>
+  count(department) |> 
+  mutate(department = fct_reorder(department, n)) |> 
+  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis") |>
+  layout(
+    title = "Count of Department",
+    xaxis = list(title = "Department"),
+    yaxis = list(title = "Count of Department")
+  )
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+instacart |>
+  filter(reordered == 1, order_number >= 20) |>
+  sample_n(1000) |>
+  plot_ly(x = ~order_hour_of_day, y = ~days_since_prior_order, color = ~order_number, text = ~product_name, type = "scatter", mode = "markers") |>
+  layout(
+    title = "Order Hour vs. Days Since Prior Order",
+    xaxis = list(title = "Order Hour of the Day"),
+    yaxis = list(title = "Days Since Prior Order")
+  )
+
+```
+
+### Chart C
+
+```{r}
+
+instacart |>
+  filter(reordered == 1, order_number >= 20) |>
+  mutate(
+    order_dow = case_match(
+      order_dow,
+      0  ~ "Sun",
+      1  ~ "Mon",
+      2  ~ "Tue",
+      3  ~ "Wed",
+      4  ~ "Thu",
+      5  ~ "Fri",
+      6  ~ "Sat"
+    ),
+    order_dow = as.factor(order_dow),
+    order_dow = fct_reorder(order_dow, order_number)
+    ) |>
+  plot_ly(y = ~order_number, color = ~order_dow, type = "box", colors = "viridis") |>
+    layout(title = "Order Number Distribution",
+         xaxis = list(title = "Order Day of the Week"),
+         yaxis = list(title = "Order Number of the Day"))
+
+```
